@@ -6,14 +6,11 @@ html {
 
 body {
     background-image: url('../assets/bg.jpg');
-    margin: auto;
 }
 
 nav {
-
-    text-align: justify;
-    text-justify: inter-word;
-    padding: 25px 20px;
+    text-align: left;
+    padding: 20px 20px;
     background-color: aliceblue;
     color: white;
     border-bottom: 4px solid #dafdff;
@@ -33,11 +30,9 @@ img {
 }
 
 .mainn {
-    margin: auto;
     -webkit-animation: mymove 5s;
     animation: mymove 5s;
     width: auto;
-    padding: 10px;
     font-size: 1rem;
     color: white;
     text-align: center;
@@ -55,7 +50,11 @@ img {
     border-radius: 5px;
 }
 
-.links:active {
+#inline:link {
+    color: white;
+}
+
+#button1:active, #button2:active, #button3:active {
     top: 2px;
     display: inline;
     background-color: #dafdff;
