@@ -22,25 +22,14 @@ img {
     border-radius: 5px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    background-color: aliceblue;
-    text-align: center;
-    padding: 14px 20px;
-    color: white;
-    border-bottom: 4px solid #dafdff;
-}
-
-li {
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-li a {
+li.navi a.navi {
     text-decoration: none;
     color: black;
+}
+
+.list ul li {
+    color: white;
+    margin: 15px;
 }
 
 h1, h3 {
@@ -51,8 +40,10 @@ p {
     margin: 5px;
 }
 
-#bot {
-    margin-bottom: 20px;
+#navi li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .mainn {
@@ -74,11 +65,31 @@ p {
     border-radius: 5px;
 }
 
-#inline:link {
+.list {
+    color: white;
+    text-align: center;
+}
+
+#navi {
+    list-style-type: none;
+    margin: 0;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 14px 20px;
+    color: white;
+    border-bottom: 4px solid #dafdff;
+}
+
+
+#bot {
+    margin-bottom: 20px;
+}
+
+.inline:link {
     color: white;
 }
 
-#inline:visited {
+.inline:visited {
     color: white;
 }
 
