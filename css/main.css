@@ -126,7 +126,7 @@ p {
     img.pic {
         width: 95%;
     }
-    .mainn li.navi .list {
+    .mainn li.navi li.list {
         font-size: 2rem;
     }
 }
