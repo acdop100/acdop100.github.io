@@ -6,13 +6,15 @@ html {
 body {
     background-image: url('../assets/bg.jpg');
     margin: 0;
-    position: relative;
 }
 
 
-img {
+#homepic img {
     -webkit-animation: mymove 5s;
     animation: mymove 5s;
+}
+
+img {
     display: block;
     margin-top: 30px;
     margin-left: auto;
@@ -28,7 +30,7 @@ li.navi a.navi {
     color: black;
 }
 
-.list ul li {
+.list li{
     color: white;
     margin: 15px;
 }
@@ -71,7 +73,7 @@ nav {
     border-radius: 5px;
 }
 
-.list {
+ul.list {
     color: white;
     text-align: center;
 }
