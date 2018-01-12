@@ -6,6 +6,7 @@ html {
 body {
     background-image: url('../assets/bg.jpg');
     margin: 0;
+    position: relative;
 }
 
 
