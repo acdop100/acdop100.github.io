@@ -79,6 +79,9 @@ p {
     padding: 14px 20px;
     color: white;
     border-bottom: 4px solid #dafdff;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 
@@ -127,7 +130,10 @@ p {
     img.pic {
         width: 95%;
     }
-    .mainn li.navi li.list {
+    .mainn li.navi {
+        font-size: 1.5rem;
+    }
+    li.list {
         font-size: 2rem;
     }
 }
