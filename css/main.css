@@ -115,6 +115,11 @@ ul.list {
     img.pic {
         width: 95%;
     }
+
+    img.logo {
+        width: 95%;
+    }
+
     .mainn li.navi {
         font-size: 1.5rem;
     }
