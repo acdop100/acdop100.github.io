@@ -38,7 +38,7 @@ p {
 }
 
 nav {
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 .mainn {
@@ -90,8 +90,8 @@ ul.list {
 }
 
 .logo {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 @-webkit-keyframes mymove {
