@@ -25,7 +25,7 @@ li.navi a.navi {
 }
 
 .list li{
-    color: white;
+    color: black;
     margin: 15px;
 }
 
@@ -42,15 +42,27 @@ nav {
 }
 
 .mainn {
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    max-width: 600px;
+    padding: 15px;
+    border: 4px solid #dafdff;
+    border-radius: 10px;
+
+}
+
+.home {
     -webkit-animation: mymove 5s;
     animation: mymove 5s;
-    font-size: 1rem;
-    color: white;
-    text-align: center;
 }
 
 ul.list {
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -82,11 +94,11 @@ ul.list {
 }
 
 .inline:link {
-    color: white;
+    color: black;
 }
 
 .inline:visited {
-    color: white;
+    color: purple;
 }
 
 .logo {
